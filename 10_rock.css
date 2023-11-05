@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(25, 25, 25);;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .title{
+    color: white;
+    margin-bottom: 35px;
+ }
+
+ .move__{
+    background-color: rgb(25, 25, 25);;
+    cursor: pointer;
+    border:  white solid;
+    border-radius: 100px;
+    padding: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+
+ .text1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .text2{
+    color: white;
+    margin-bottom: 50px;
+ }
+ .text3{
+    color: white;
+    margin-top: 10px;
+ }
+ .reset{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }

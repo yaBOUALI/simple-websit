@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>booleans</title>
+        <link rel="stylesheet" href="10_rock.css">
+    </head>
+
+    <body>
+               <h1 class="title">Rock Paper Scissors</h1>
+
+               <button class="move__" onclick="
+
+               playGame('rock')
+
+
+               " >
+                     <img src="rock-emoji 1.png" alt="icon">
+               </button>
+
+
+               <button class="move__" onclick="
+
+               playGame('paper')
+
+               ">
+                     <img src="paper-emoji 1.png" alt="icon">
+               </button>
+
+
+               <button class="move__" onclick="
+
+               playGame('scissors');
+
+               ">
+                     <img src="scissors-emoji 1.png" alt="icon">
+               </button>
+
+
+
+
+
+         
+               <p class="js_result text1"></p>
+               <p class="js_moves text2"></p>
+               <p class="js_score text3"></p>
+
+
+              <button onclick="
+
+               score.Ties=0;
+               score.Wins=0;
+               score.losses=0;
+               localStorage.removeItem('score');
+               ElementScore();
+
+               " class="reset">
+                  Reset Score
+               </button>
+
+        <script src="10_rock.js"></script>
+    </body>
+</html>
